@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Masters</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="/images/icon-permissions.svg">
+    <link rel="icon" href="images/icon-permissions.svg">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/logo.svg" alt="Cooking Masters" id="logo"></a></h1>
+        <div></div>
+    </header>
+
+    <main>
+      
+        <section class="page" id="recipe" style="display: block;">
+            <header>
+                <section>
+                    <h2>Dulce de Leche Brownies</h2>
+                    <p class="metadata">9 ingredients |
+         60 minutes | Dessert</p>
+                    
+                </section>
+                <img src="images/original/ddl-brownies.png">
+            </header>
+
+            <section id="cooking" hidden="">
+                <div>
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                
+                <div class="step">
+                </div>
+                <section class="timers">
+                    <ul>
+                        
+                    </ul>
+                </section>
+                <section class="toolbar">
+                    <button id="btn-previous" onclick="app.cooking.previous()">Previous</button>
+                    <button id="btn-next" onclick="app.cooking.next()">Next</button>
+                </section>
+            </section>
+
+            <section>
+                <h3>Description</h3>
+                <p class="description">Rich, fudgy brownies swirled with velvety dulce de leche, creating a decadent and irresistible dessert.</p>
+
+                <h3>Ingredients</h3>
+                <dl>
+            <dt>Unsalted butter</dt><dd>1 cup (2 sticks)</dd>
+        
+            <dt>Semisweet chocolate chips</dt><dd>1 1/2 cups</dd>
+        
+            <dt>Granulated sugar</dt><dd>1 1/2 cups</dd>
+        
+            <dt>Eggs</dt><dd>4</dd>
+        
+            <dt>Vanilla extract</dt><dd>1 teaspoon</dd>
+        
+            <dt>All-purpose flour</dt><dd>1 cup</dd>
+        
+            <dt>Cocoa powder</dt><dd>1/3 cup</dd>
+        
+            <dt>Salt</dt><dd>1/2 teaspoon</dd>
+        
+            <dt>Dulce de leche</dt><dd>1 cup</dd>
+        </dl>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/logo.svg" alt="Cooking Masters">
+            <p>This is a project for a <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>
+                workshop by <a href="https://firt.dev" target="_blank">Maximiliano Firtman</a>.</p>
+        </div>
+    </footer>
+
+
+</body></html>

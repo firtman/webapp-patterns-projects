@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Masters</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="/images/icon-permissions.svg">
+    <link rel="icon" href="images/icon-permissions.svg">
+
+    <script type="speculationrules">
+        {
+          "prerender": [
+            {
+              "urls": ["fish-tacos", "vegetatian-pho.html"]
+            }
+          ]
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/logo.svg" alt="Cooking Masters" id="logo"></a></h1>
+        <div></div>
+    </header>
+
+    <main>
+        <section class="page" id="home" style="display: block;">
+            <section class="two-columns">
+                <div>
+                    <h3>Recipe of the Week</h3>
+                    <div style="view-transition-name: fish-tacos" id="recipe-week">
+        <a href="fish-tacos.html" class="large recipe">
+            <img src="images/original/fish-tacos-with-pickled-onion.png"">
+            <h4>Fish Tacos with Pickled Onion</h4>
+            <p class="metadata">Main Meal | 13 ingredients | 60 min</p>
+        </a>
+    </div>
+
+                </div>
+                <div>
+                    <h3>Most Cooked</h3>
+                    <div id="recipe-most"  style="view-transition-name: vegetarian-pho">
+        <a href="vegetarian-pho.html" class="large recipe">
+            <img src="images/original/vegetarian-pho.png">
+            <h4>Vegetarian Pho</h4>
+            <p class="metadata">Main Meal | 22 ingredients | 90 min</p>
+        </a>
+    </div>
+
+                </div>
+            </section>
+
+
+            <section id="all">
+                <h3>All Recipes</h3>
+                <ul><li  style="view-transition-name: asado">
+        <a href="asado.html" class="small recipe">
+            <img src="images/original/asado.png">
+            <h4>Argentinian Asado</h4>
+            <p class="metadata">Main Meal | 8 ingredients | 240 min</p>
+        </a>
+    </li>
+    <li  style="view-transition-name: southwest-nachos">
+        <a href="southwest-nachos.html" class="small recipe">
+            <img src="images/original/southwest-nachos.png">
+            <h4>Southwest Nachos</h4>
+            <p class="metadata">Appetizer | 12 ingredients | 30 min</p>
+        </a>
+    </li><li  style="view-transition-name: calamari">
+        <a href="calamari.html" class="small recipe">
+            <img src="images/original/calamari-and-shrimp-pasta.png">
+            <h4>Calamari and Shrimp Pasta</h4>
+            <p class="metadata">Main Meal | 12 ingredients | 45 min</p>
+        </a>
+    </li><li  style="view-transition-name: ddl-brownies">
+        <a href="ddl-brownies.html" class="small recipe">
+            <img src="images/original/ddl-brownies.png">
+            <h4>Dulce de Leche Brownies</h4>
+            <p class="metadata">Dessert | 9 ingredients | 60 min</p>
+        </a>
+    </li></ul>
+            </section>
+        </section>
+               
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/logo.svg" alt="Cooking Masters">
+            <p>This is a project for a <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>
+                workshop by <a href="https://firt.dev" target="_blank">Maximiliano Firtman</a>.</p>
+        </div>
+    </footer>
+
+
+</body></html>

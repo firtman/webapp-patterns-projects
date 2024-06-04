@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Masters</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="/images/icon-permissions.svg">
+    <link rel="icon" href="images/icon-permissions.svg">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/logo.svg" alt="Cooking Masters" id="logo"></a></h1>
+        <div></div>
+    </header>
+
+    <main>
+       
+        <section class="page" id="recipe" style="display: block;">
+            <header>
+                <section>
+                    <h2>Southwest Nachos</h2>
+                    <p class="metadata">12 ingredients |
+         30 minutes | Appetizer</p>
+                    
+                </section>
+                <img src="images/original/southwest-nachos.png">
+            </header>
+
+            <section id="cooking" hidden="">
+                <div>
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                
+                <div class="step">
+                </div>
+                <section class="timers">
+                    <ul>
+                        
+                    </ul>
+                </section>
+                <section class="toolbar">
+                    <button id="btn-previous" onclick="app.cooking.previous()">Previous</button>
+                    <button id="btn-next" onclick="app.cooking.next()">Next</button>
+                </section>
+            </section>
+
+            <section>
+                <h3>Description</h3>
+                <p class="description">A delicious and colorful appetizer of nachos loaded with Southwest-inspired flavors, including black beans, corn, tomatoes, and avocado.</p>
+
+                <h3>Ingredients</h3>
+                <dl>
+            <dt>Tortilla chips</dt><dd>1 large bag</dd>
+        
+            <dt>Black beans</dt><dd>1 can (15 ounces), drained and rinsed</dd>
+        
+            <dt>Frozen corn</dt><dd>1 cup, thawed</dd>
+        
+            <dt>Cherry tomatoes</dt><dd>1 cup, halved</dd>
+        
+            <dt>Jalapenos</dt><dd>1-2, sliced</dd>
+        
+            <dt>Red onion</dt><dd>1/4 cup, diced</dd>
+        
+            <dt>Cheddar cheese</dt><dd>2 cups, shredded</dd>
+        
+            <dt>Monterey Jack cheese</dt><dd>2 cups, shredded</dd>
+        
+            <dt>Avocado</dt><dd>1, diced</dd>
+        
+            <dt>Fresh cilantro</dt><dd>1/4 cup, chopped</dd>
+        
+            <dt>Sour cream</dt><dd>for serving</dd>
+        
+            <dt>Salsa</dt><dd>for serving</dd>
+        </dl>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/logo.svg" alt="Cooking Masters">
+            <p>This is a project for a <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>
+                workshop by <a href="https://firt.dev" target="_blank">Maximiliano Firtman</a>.</p>
+        </div>
+    </footer>
+
+
+</body></html>

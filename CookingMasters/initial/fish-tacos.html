@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Masters</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="/images/icon-permissions.svg">
+    <link rel="icon" href="images/icon-permissions.svg">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/logo.svg" alt="Cooking Masters" id="logo"></a></h1>
+        <div></div>
+    </header>
+
+    <main>
+
+        <section class="page" id="recipe" style="display: block;">
+            <header>
+                <section>
+                    <h2>Fish Tacos with Pickled Onion</h2>
+                    <p class="metadata">13 ingredients |
+         60 minutes | Main Meal</p>
+                    
+                </section>
+                <img src="images/original/fish-tacos-with-pickled-onion.png">
+            </header>
+
+            <section id="cooking" hidden="">
+                <div>
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                
+                <div class="step">
+                </div>
+                <section class="timers">
+                    <ul>
+                        
+                    </ul>
+                </section>
+                <section class="toolbar">
+                    <button id="btn-previous" onclick="app.cooking.previous()">Previous</button>
+                    <button id="btn-next" onclick="app.cooking.next()">Next</button>
+                </section>
+            </section>
+
+            <section>
+                <h3>Description</h3>
+                <p class="description">Delicious fish tacos made with crispy breaded fish, fresh cilantro, and tangy pickled onions wrapped in a soft flour tortilla.</p>
+
+                <h3>Ingredients</h3>
+                <dl>
+            <dt>Red onion</dt><dd>1</dd>
+        
+            <dt>Water</dt><dd>1 cup</dd>
+        
+            <dt>Vinegar</dt><dd>1 cup</dd>
+        
+            <dt>Sugar</dt><dd>1 tablespoon</dd>
+        
+            <dt>Salt</dt><dd>1 teaspoon</dd>
+        
+            <dt>White fish fillets</dt><dd>1 pound</dd>
+        
+            <dt>Flour</dt><dd>1 cup</dd>
+        
+            <dt>Egg</dt><dd>1</dd>
+        
+            <dt>Breadcrumbs</dt><dd>1 cup</dd>
+        
+            <dt>Vegetable oil</dt><dd>for frying</dd>
+        
+            <dt>Flour tortillas</dt><dd>8</dd>
+        
+            <dt>Cilantro</dt><dd>1 bunch</dd>
+        
+            <dt>Lime</dt><dd>1</dd>
+        </dl>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/logo.svg" alt="Cooking Masters">
+            <p>This is a project for a <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>
+                workshop by <a href="https://firt.dev" target="_blank">Maximiliano Firtman</a>.</p>
+        </div>
+    </footer>
+
+
+</body></html>

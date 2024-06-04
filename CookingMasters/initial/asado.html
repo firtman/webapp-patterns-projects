@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cooking Masters</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="/images/icon-permissions.svg">
+    <link rel="icon" href="images/icon-permissions.svg">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/logo.svg" alt="Cooking Masters" id="logo"></a></h1>
+        <div></div>
+    </header>
+
+    <main>       
+        <section class="page" id="recipe" style="display: block;">
+            <header>
+                <section>
+                    <h2>Argentinian Asado</h2>
+                    <p class="metadata">8 ingredients |
+         240 minutes | Main Meal</p>
+                    
+                </section>
+                <img src="images/original/asado.png">
+            </header>
+
+            <section id="cooking" hidden="">
+                <div>
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                
+                <div class="step">
+                </div>
+                <section class="timers">
+                    <ul>
+                        
+                    </ul>
+                </section>
+                <section class="toolbar">
+                    <button id="btn-previous" onclick="app.cooking.previous()">Previous</button>
+                    <button id="btn-next" onclick="app.cooking.next()">Next</button>
+                </section>
+            </section>
+
+            <section>
+                <h3>Description</h3>
+                <p class="description">A traditional Argentinian asado featuring various cuts of meat grilled to perfection over a wood or charcoal fire, served with chimichurri sauce.</p>
+
+                <h3>Ingredients</h3>
+                <dl>
+            <dt>Beef short ribs</dt><dd>4 pounds</dd>
+        
+            <dt>Pork ribs</dt><dd>4 pounds</dd>
+        
+            <dt>Sausages</dt><dd>2 pounds, e.g., chorizo, morcilla</dd>
+        
+            <dt>Sweetbreads</dt><dd>1 pound</dd>
+        
+            <dt>Chicken</dt><dd>1, cut into pieces</dd>
+        
+            <dt>Sea salt</dt><dd>to taste</dd>
+        
+            <dt>Wood or charcoal</dt><dd>for grilling</dd>
+        
+            <dt>Chimichurri sauce</dt><dd>to the taste</dd>
+        </dl>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/logo.svg" alt="Cooking Masters">
+            <p>This is a project for a <a href="https://frontendmasters.com" target="_blank">Frontend Masters</a>
+                workshop by <a href="https://firt.dev" target="_blank">Maximiliano Firtman</a>.</p>
+        </div>
+    </footer>
+
+
+</body></html>
