@@ -1,0 +1,17 @@
+{
+  "name": "webapp-patterns-projects",
+  "version": "1.0.0",
+  "description": "This is a companion repository for the [Practical Web App Patterns with Vanilla JS](https://frontendmasters.com/courses/vanilla-js-patterns) course on Frontend Masters. [![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)](https://frontendmasters.com/courses/vanilla-js-patterns)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andriisr",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3"
+  }
+}
